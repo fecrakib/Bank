@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://cdn.tailwindcss.com"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tailwind.config.js">
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-5xl mt-6">
+            Welcome to your <span class="font-semibold">Baap Er Bank</span>
+        </h1>
+    </header>
+    <main>
+        <section class="mx-10">
+            <div class=" grid gap-4 grid-cols-3  py-10">
+                <div class="	
+                bg-green-600 p-10	rounded-md
+                "> <h1 class=" text-white font-semibold">Depoit</h1> <p class=" text-white font-semibold">$5</p>
+                </div>
+                <div class="bg-rose-500 p-10 rounded-md">
+                    <h1 class=" text-white font-semibold">
+                        withdraw
+                    </h1>
+                    <p class=" text-white font-semibold">$10</p>
+                </div>
+                <div class="bg-orange-400 p-10 rounded-md">
+                    <h1 class=" text-white font-semibold">Balalnce</h1> <p class=" text-white font-semibold">&1200</p>
+                </div>
+            </div>
+  
+        </section>
+        <section class="mx-10">
+            <div class="grid grid-cols-2 gap-5">
+                <div class="bg-blue-400 p-10 rounded-md ">
+                    <h1 class="text-white font-semibold">Please Deposit</h1>
+                    <input class="w-11/12 rounded-sm p-1 text-sm"  type="text" placeholder="amboutn enter for deposite"><br>
+                    <button class="bg-blue-900 px-3  rounded-md my-5 hover:bg-sky-700 text-white font-semibold"> Deposit</button>
+                </div>
+                <div class="bg-indigo-500 p-10 rounded-md">
+                    <h1 class="text-white font-semibold">Please writhdraw</h1>
+                    <input class="w-11/12 rounded-sm p-1 text-sm" type="text" placeholder="enter amound for withdraw"><br>
+                    <button class="bg-blue-900 px-3  rounded-md my-5 hover:bg-sky-700 text-white font-semibold">withdraw</button> 
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
